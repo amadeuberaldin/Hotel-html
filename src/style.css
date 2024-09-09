@@ -1,0 +1,33 @@
+/* Controla o tamanho das imagens */
+.hotel-img, .room-img {
+    max-width: 70%;
+    height: auto;
+}
+
+/* Logo menor */
+.logo {
+    max-width: 150px; 
+    height: auto;
+}
+
+/* Ícones menores */
+.icon {
+    font-size: 3rem;
+}
+
+/* Margens para os itens alinhados */
+.me-2 {
+    margin-right: 0.5rem;
+}
+
+/* Estilos para o container do logo */
+.logo-container {
+    background-color: #819eb2; 
+    padding: 10px; 
+    text-align: left;     
+    height: 150px;
+}
+
+.row {
+    margin: 0 auto;
+}
