@@ -1,0 +1,32 @@
+{
+  "reservas": [
+    {
+      "id": "fc31",
+      "nome": "amadeu",
+      "email": "amadeu_beraldin@hotmail.com",
+      "dataCheckin": "2024-10-22",
+      "dataCheckout": "2024-11-18"
+    },
+    {
+      "id": "aa91",
+      "nome": "teste",
+      "email": "teste@teste",
+      "dataCheckin": "2024-09-17",
+      "dataCheckout": "2024-09-27"
+    },
+    {
+      "id": "3375",
+      "nome": "testando",
+      "email": "testando@teste",
+      "dataCheckin": "2024-09-18",
+      "dataCheckout": "2024-10-02"
+    },
+    {
+      "id": "5fab",
+      "nome": "ultimo teste",
+      "email": "ultimo@teste",
+      "dataCheckin": "2024-09-25",
+      "dataCheckout": "2024-10-02"
+    }
+  ]
+}

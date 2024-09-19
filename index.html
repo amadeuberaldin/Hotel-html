@@ -80,57 +80,61 @@
     <div class="container my-5">
         <div class="card">
             <div class="card-body">
-                <div class="row">
-                    <!-- Coluna para o texto da reserva -->
-                    <div class="col-md-4">
-                        <h2>FAÇA SUA RESERVA</h2>
-                        <p>Entre em contato conosco informando as datas desejadas, e lhe retornaremos com a
-                            disponibilidade e detalhes da reserva.</p>
-                    </div>
+                <form id="form-reserva">
+                    <div class="row">
+                        <!-- Coluna para o texto da reserva -->
+                        <div class="col-md-4">
+                            <h2>FAÇA SUA RESERVA</h2>
+                            <p>Entre em contato conosco informando as datas desejadas, e lhe retornaremos com a
+                                disponibilidade e detalhes da reserva.</p>
+                            <a href="reservas.html" class="btn btn-secondary">Ver Reservas</a>
+                        </div>
 
-                    <!-- Coluna para os campos do formulário -->
-                    <div class="col-md-8">
-                        <div class="row">
-                            <!-- Primeira coluna de cadastro -->
-                            <div class="col-md-6">
-                                <label for="nome">Nome</label>
-                                <input type="text" id="nome" class="form-control">
-                                <label for="entrada" class="mt-2">Data de Entrada</label>
-                                <input type="date" id="entrada" class="form-control">
-                                <label for="observacoes" class="mt-2">Observações</label>
-                                <textarea id="observacoes" class="form-control" rows="4"></textarea>
-                            </div>
-
-                            <!-- Segunda coluna de cadastro e botão -->
-                            <div class="col-md-6">
-                                <label for="email">E-mail</label>
-                                <input type="email" id="email" class="form-control">
-                                <label for="saida" class="mt-2">Data de Saída</label>
-                                <input type="date" id="saida" class="form-control">
-                                <div class="d-flex mt-2">
-                                    <div class="me-2">
-                                        <label for="adultos">Adultos</label>
-                                        <input type="number" id="adultos" class="form-control" min="0">
-                                    </div>
-                                    <div>
-                                        <label for="criancas">Crianças</label>
-                                        <input type="number" id="criancas" class="form-control" min="0">
-                                    </div>
+                        <!-- Coluna para os campos do formulário -->
+                        <div class="col-md-8">
+                            <div class="row">
+                                <!-- Primeira coluna de cadastro -->
+                                <div class="col-md-6">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" id="nome" class="form-control">
+                                    <label for="dataCheckin" class="mt-2">Data de Entrada</label>
+                                    <input type="date" id="dataCheckin" class="form-control">
+                                    <label for="observacoes" class="mt-2">Observações</label>
+                                    <textarea id="observacoes" class="form-control" rows="4"></textarea>
                                 </div>
-                                <!-- Botão Enviar alinhado e com largura total -->
-                                <div class="d-flex mt-4">
-                                    <button class="btn btn-primary w-100">Enviar</button>
+
+                                <!-- Segunda coluna de cadastro e botão -->
+                                <div class="col-md-6">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" class="form-control">
+                                    <label for="dataCheckout" class="mt-2">Data de Saída</label>
+                                    <input type="date" id="dataCheckout" class="form-control">
+                                    <div class="d-flex mt-2">
+                                        <div class="me-2">
+                                            <label for="adultos">Adultos</label>
+                                            <input type="number" id="adultos" class="form-control" min="0">
+                                        </div>
+                                        <div>
+                                            <label for="criancas">Crianças</label>
+                                            <input type="number" id="criancas" class="form-control" min="0">
+                                        </div>
+                                    </div>
+                                    <!-- Botão Enviar alinhado e com largura total -->
+                                    <div class="d-flex mt-4">
+                                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
 
     <!-- Bootstrap JS -->
     <script src="src/jquery-3.7.1.js"></script>
+    <script src="src/main.js"></script>
 </body>
 
 </html>
